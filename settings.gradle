@@ -1,0 +1,1 @@
+include ':app', ':single', ':builder3', ':prototype4', ':factory5', ':abstractFactory6', ':policy7', ':state8', ':duty9', ':interpreter10', ':command11', ':observer12', ':Memento13', ':Iterator14', ':template15', ':visitor16', ':mediator17', ':proxy18', ':composite19', ':adapter20', ':decorator21', ':flyweight22', ':facade23', ':bridge24', ':mvc25', ':mvp26'

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zx.memento.note.NoteActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_revoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="撤销" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/btn_regain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恢复" />
+
+
+    </LinearLayout>
+
+    <com.zx.memento.note.NoteEditText
+        android:id="@+id/et_write"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:hint="说点什么..." />
+
+</LinearLayout>
